@@ -1,18 +1,28 @@
 # ModelSerializer
 
-This projects contains a simple serializer for **Javascript** objects written in just a few lines of code and minimum dependencies. It's aim is to simply apply transformations on various Javascript objects (e.g. before you return then to user via REST API).
+This projects contains a simple serializer for **Javascript** objects written in just a few lines of code and minimum dependencies. It's aim is to simply apply transformations on various Javascript objects (e.g. before you return them to user via REST API).
 
 ## Installation
 
-You can simply install the **ModelSerializer** by running `npm install modelserializer`
+You can simply install the **ModelSerializer** by running 
+
+```
+npm install hermandavid/modelserializer
+```
+
+Then you require the package as follows
+
+```
+const ModelSerializer = require('modelserializer');
+```
 
 ## Run tests
 
 You can run tests for this package by running `npm test`.
 
 ## Example usages
- 
- The following examples show on how to use this package.
+
+The following examples show on how to use this package.
 
 ### Basic usage
 
