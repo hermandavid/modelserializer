@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": ["ES6"],
+        "target": "ES6",
+        "strict": true,
+        "outDir": "build",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "types": ["node", "mocha"]
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

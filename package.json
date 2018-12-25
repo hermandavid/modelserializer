@@ -1,0 +1,26 @@
+{
+  "name": "modelserializer",
+  "version": "1.0.0",
+  "description": "Javascript model serializer",
+  "main": "./src/modelserializer.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json",
+    "model",
+    "serializer"
+  ],
+  "author": "David Herman",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^5.11.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+	"env": {
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"plugins": [
+		"mocha",
+		"promise"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:mocha/recommended",
+		"plugin:promise/recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2017,
+		"sourceType": "module"
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-var": [
+			"error"
+		],
+		"eqeqeq": [
+			"error"
+		],
+		"arrow-parens": [
+			"error",
+			"always"
+		],
+		"no-unused-vars": [
+			"error",
+			{
+				"args": "after-used"
+			}
+		],
+		"newline-per-chained-call": [
+			"error",
+			{
+				"ignoreChainWithDepth": 1
+			}
+		],
+		"prefer-const": [
+			"error"
+		],
+		"prefer-template": [
+			"error"
+		],
+		"promise/always-return": [
+			"off"
+		]
+	}
+}
