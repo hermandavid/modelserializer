@@ -7,7 +7,7 @@ This projects contains a simple serializer for **Javascript** objects written in
 You can simply install the **ModelSerializer** by running 
 
 ```
-npm install hermandavid/modelserializer
+npm install modelserializer
 ```
 
 Then you require the package as follows
