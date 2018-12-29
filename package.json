@@ -1,7 +1,8 @@
 {
   "name": "modelserializer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript model serializer",
+  "repository": "github:hermandavid/modelserializer",
   "main": "./src/modelserializer.js",
   "scripts": {
     "test": "mocha"
