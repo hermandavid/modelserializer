@@ -94,14 +94,14 @@ Or you can pass a function as a serializer for particular value
 ```
 const serializer = new ModelSerializer({
 	attributes: [
-		{ field: 'a', serializer: (value) => value + 1 },
-		// You can also access the original object
-                { field: 'b', serializer: (value, source) => source.a }
+		{ field: 'a', serializer: (value) => value + 10 },
+		// You can also access the original object (source.b === value)
+		{ field: 'b', serializer: (value, source) => source.a + value }
 	]
 });
 
 console.log(serializer.serialize({ a: 1, b: 2 }));
-// { a: 2, b:  }
+// { a: 11, b: 3 }
 ```
 
 And that's it!
