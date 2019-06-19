@@ -1,6 +1,6 @@
 {
   "name": "modelserializer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Javascript model serializer",
   "repository": "github:hermandavid/modelserializer",
   "main": "./src/modelserializer.js",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
-    "eslint": "^5.11.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-mocha": "^5.2.0",
     "eslint-plugin-promise": "^4.0.1",
     "mocha": "^5.2.0"
